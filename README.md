@@ -42,8 +42,8 @@ File -> Import -> Maven -> Existing Maven project
 2) Once the download is done, run the rabbit mq which will run as background service in case for windows system.
 
 3) Run the zipkin-server jar file using below command<br>
-  For windows --> `set RABBIT_URI=amqp://localhost
-                  java -jar zipkin-server-2.19.2-exec.jar`
+  For windows --> `set RABBIT_URI=amqp://localhost` <br>
+                  `java -jar zipkin-server-2.19.2-exec.jar`
   
 4) Once the Erlang, RabbitMQ and zipkin software is up and running, follow the below steps to run the application in the below order
    a. netflix-eureka-naming-server
